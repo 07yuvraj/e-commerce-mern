@@ -1,0 +1,69 @@
+main {
+  min-height: 75vh;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.navbar {
+  font-size: 125%;
+}
+
+.navbar-brand {
+  font-size: 125%;
+}
+
+.carousel img {
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 770px) {
+  .carousel-caption h2 {
+    font-size: 80%;
+  }
+  .carousel img {
+    padding: 8%;
+    margin: 20% 1%;
+  }
+
+  .searchBox {
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+}
+
+.carousel a {
+  margin: 0 auto;
+}
